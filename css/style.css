@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* container */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ------------------------------ */
+
+/* header */
+
+header .top {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* logo */
+
+header .top .logo {
+    text-decoration: none;
+    color: #000;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+/* layout */
+
+header .top .layout {
+    color: #C5C5C5;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+/* about */
+
+header .top .about {
+    color: #C5C5C5;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+/* contact */
+
+header .top .contact {
+    color: #C5C5C5;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+/* content */
+
+/* --------------------- */
+
+/* text1 */
+
+.content .text {
+    margin-left: 90px;
+}
+
+/* text2 */
+
+.content .title {
+    font-size: 40px;
+    margin-top: 120px;
+}
+
+/* text3 */
+
+.content .title-2 {
+    color: #2D47D7;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.content .title-2:before {
+    content: '«';
+}
+
+.content .title-2::after {
+    content: '»';
+}
+
+/* information */
+
+.content .information {
+    margin-top: 10px;
+    color: #c5c5c5;
+    font-size: 24px;
+    width: 400px;
+}
+
+/* license */
+
+.content .license {
+    color: #2D47D7;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* images */
+
+.content .images {
+    display: flex;
+}
+
+/* image-1 */
+
+.content .images .img-1 img {
+    width: 600px;
+    transform: skew(10deg);
+    border-radius: 50px;
+    position: relative;
+    left: 750px;
+    top: -382px;
+}
+
+/* image-2 */
+
+.content .images .img-2 img {
+    width: 250px;
+    height: 200px;
+    transform: skew(10deg);
+    border-radius: 50px;
+    position: relative;
+    left: 770px;
+    top: -382px;
+}
+
+/* image-3 */
+
+.content .images .img-3 {
+    width: 400px;
+    height: 200px;
+    background-color: #DCEDFD;
+    transform: skew(10deg);
+    border-radius: 50px;
+    position: relative;
+    left: -30px;
+    top: 260px;
+    z-index: -10;
+}
+
+/* image-4 */
+
+.content .images .img-4 {
+    width: 400px;
+    height: 200px;
+    background-color: #DCEDFD;
+    transform: skew(10deg);
+    border-radius: 50px;
+    position: relative;
+    left: 100px;
+    top: 260px;
+}
+
+/* ---------------------------- */
+
+/* content-box */
+
+.content .content-box {
+    margin-top: -300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 60%;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: -2px 2px 5px rgb(148, 148, 148), 2px -2px 5px rgb(148, 148, 148);
+    background-color: #fff;
+}
+
+/* rooms */
+
+.content .content-box #rooms .rooms {
+    font-weight: 600;
+}
+
+/* fa-caret-down */
+
+.content .content-box #rooms .fa-caret-down {
+    color: #A8A8A8;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+/* two */
+
+.content .content-box #rooms .two {
+    color: #A8A8A8;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* floor */
+
+.content .content-box #floor .floor {
+    font-weight: 600;
+}
+
+.content .content-box #floor .fa-caret-down {
+    color: #A8A8A8;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+/* two-four */
+
+.content .content-box #floor .two-four {
+    color: #A8A8A8;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* price */
+
+.content .content-box #price .price {
+    font-weight: 600;
+}
+
+/* from-2 */
+
+.content .content-box #price .from-2 {
+    color: #A8A8A8;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* to-2 */
+
+.content .content-box #price .to-2 {
+    color: #A8A8A8;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* search */
+
+.content .content-box #search {
+    text-align: center;
+    background-color: #354BD2;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+
+/* fa-search */
+
+.content .content-box #search .fa-search {
+    color: #fff;
+    margin-top: 22px;
+}
+
+/* search */
+
+.content .content-box #search .search {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* -------------------------- */
+
+/* content-box-2 */
+
+.content .content-box-2 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -120px;
+    left: 950px;
+    width: 20%;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: -2px 2px 5px rgb(148, 148, 148), 2px -2px 5px rgb(148, 148, 148);
+    background-color: #fff;
+    text-align: center;
+}
+
+/* geolocation */
+
+.content .content-box-2 .geolocation {
+    background-color: #354BD2;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+/* icon */
+
+.content .content-box-2 i {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* street */
+
+.content .content-box-2 .street {
+    font-weight: 600;
+    text-align: center;
+    width: 300px;
+}
+
+/* location */
+
+.content .content-box-2 .location {
+    color: #A8A8A8;
+    margin: 5px auto;
+    letter-spacing: 1.1px;
+}
+
+/* -------------------------- */
+
+/* content-box-3 */
+
+.content .content-box-3 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -240px;
+    left: 1320px;
+    width: 20%;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: -2px 2px 5px rgb(148, 148, 148), 2px -2px 5px rgb(148, 148, 148);
+    background-color: #fff;
+    text-align: center;
+}
+
+/* number */
+
+.content .content-box-3 .phone {
+    background-color: #354BD2;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+/* icon */
+
+.content .content-box-3 i {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* number */
+
+.content .content-box-3 .number {
+    font-weight: 600;
+    text-align: center;
+    width: 300px;
+}
+
+/* call-online */
+
+.content .content-box-3 .call-online {
+    color: #A8A8A8;
+    margin: 5px auto;
+    letter-spacing: 1.1px;
+}
